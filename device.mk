@@ -178,11 +178,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    AdvancedSettings
-
-# Doze
-PRODUCT_PACKAGES += \
-   XiaomiDoze
+    AdvancedSettings \
+    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \
