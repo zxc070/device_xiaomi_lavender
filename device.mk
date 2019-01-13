@@ -1,4 +1,3 @@
-# 
 # Copyright (C) 2018 The Mokee Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -277,7 +276,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_lavender
 
-# LiveDisplay native
+# Lineage hardware
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
+# LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
