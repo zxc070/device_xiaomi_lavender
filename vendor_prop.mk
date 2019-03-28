@@ -87,6 +87,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.audio.voice.volume.boost=manual \
     sys.autosuspend.timeout=500000
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
+
 # Debug Options
 PRODUCT_PROPERTY_OVERRIDES += \
    persist.dbg.ims_volte_enable=1 \
