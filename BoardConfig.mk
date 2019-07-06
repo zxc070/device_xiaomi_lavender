@@ -216,9 +216,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
-# Power
-TARGET_USES_INTERACTION_BOOST := true
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
