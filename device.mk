@@ -175,9 +175,17 @@ PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service \
     android.hardware.broadcastradio@1.0-impl
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    AdvancedSettings
+
 # Doze
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+   XiaomiDoze
+
+# Mi sound Enhancer
+PRODUCT_PACKAGES += \
+   DiracAudio
 
 # DRM
 PRODUCT_PACKAGES += \
