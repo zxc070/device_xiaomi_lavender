@@ -18,9 +18,6 @@ $(call inherit-product, vendor/havoc/config/common.mk)
 # Official
 export export HAVOC_BUILD_TYPE=Official
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=DarkDroidDev
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_lavender
 PRODUCT_DEVICE := lavender

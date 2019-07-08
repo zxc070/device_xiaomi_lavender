@@ -276,3 +276,6 @@ ro.sf.lcd_density=440
 
 # proximity
 gsm.proximity.enable=true
+
+# HavocOS
+ro.havoc.maintainer=DarkDroidDev
