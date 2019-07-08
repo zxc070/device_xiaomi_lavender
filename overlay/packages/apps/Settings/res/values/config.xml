@@ -17,7 +17,7 @@
     <bool name="config_wifi_support_connected_mac_randomization">true</bool>
 
     <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
+    <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
     <!-- Whether to add AGPS parameter settings -->
     <bool name="config_agps_enabled">true</bool>
