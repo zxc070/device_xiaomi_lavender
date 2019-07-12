@@ -243,6 +243,9 @@ sys.shenchao_nt36672a_length=38
 # Enable all system restart_level to relative
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Thermal configs path
+sys.thermal.data.path=/data/vendor/thermal/
+
 # miui
 debug.sf.disable_backpressure=1
 keyguard.no_require_sim=true
