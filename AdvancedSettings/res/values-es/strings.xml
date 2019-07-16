@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 <resources>
-    <string name="advanced_settings">Extra settings</string>
-    <string name="advanced_settings_summary">Additional adjustments</string>
-    <string name="camera_title">Camera</string>
-    <string name="camera_hal3_title">Enable HAL3</string>
+    <string name="advanced_settings">Opciones extras</string>
+    <string name="advanced_settings_summary">Ajustes adicionales</string>
+    <string name="camera_title">Cámara</string>
+    <string name="camera_hal3_title">Habilitar HAL3</string>
 </resources>
