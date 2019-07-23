@@ -85,8 +85,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sdk.sensors.gestures=false \
     rild.libpath=/system/vendor/lib64/libril-qc-hal-qmi.so \
     ro.vendor.audio.voice.volume.boost=manual \
-    sys.autosuspend.timeout=500000 \
-    vendor.camera.hal1.packagelist=com.whatsapp
+    sys.autosuspend.timeout=500000
 
 # Debug Options
 PRODUCT_PROPERTY_OVERRIDES += \
