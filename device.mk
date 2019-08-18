@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    AdvancedSettings \
     XiaomiParts
 
 # DRM
