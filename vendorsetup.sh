@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo havoc_lavender-$var
+  add_lunch_combo xenonhd_lavender-$var
 done

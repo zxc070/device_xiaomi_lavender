@@ -12,14 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from lavender device
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common HavocOS stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
-
-# Official
-export export HAVOC_BUILD_TYPE=Official
+# Inherit some common stuff.
+$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_lavender
+PRODUCT_NAME := xenonhd_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7

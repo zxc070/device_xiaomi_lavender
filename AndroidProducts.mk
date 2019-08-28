@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_lavender.mk
+    $(LOCAL_DIR)/xenonhd_lavender.mk
