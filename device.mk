@@ -30,6 +30,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# RRO
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
@@ -145,6 +146,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     Snap
+
+# Shims
+PRODUCT_PACKAGES += \
+    camera.sdm660_shim
 
 # CNE
 PRODUCT_PACKAGES += \
