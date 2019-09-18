@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=violet
+DEVICE=lavender
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2019
