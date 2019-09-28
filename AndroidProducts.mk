@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lavender.mk
+    $(LOCAL_DIR)/komodo_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lavender-user \
-    aosp_lavender-userdebug \
-    aosp_lavender-eng
+    komodo_lavender-user \
+    komodo_lavender-userdebug \
+    komodo_lavender-eng

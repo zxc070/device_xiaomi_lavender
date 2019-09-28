@@ -59,8 +59,10 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
-TARGET_KERNEL_CONFIG := lineage-lavender_defconfig
-
+TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := $(shell grep -v based prebuilts/clang/host/$(HOST_OS)-x86/*/AndroidVersion.txt | sort | tail -n 1 | cut -d : -f 2)
+ 
 # dtbo
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
@@ -83,7 +85,7 @@ BUILD_BROKEN_DUP_RULES := true
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
-USE_CUSTOM_AUDIO_POLICY := 1
+# USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
